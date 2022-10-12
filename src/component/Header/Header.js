@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Header.css';
+import logo from '../../Images/quiz.jpg';
 
 const Header = () => {
     return (
@@ -11,6 +12,7 @@ const Header = () => {
                 <Link to='/blog'>Blog</Link>
                 <Link to='/statistics'>Statistics</Link>
             </nav>
+            {/* <img src={logo} alt="" /> */}
         </div>
     );
 };

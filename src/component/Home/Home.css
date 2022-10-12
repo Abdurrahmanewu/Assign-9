@@ -1,5 +1,14 @@
-.home-container {
+.home-container img {
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 200px;
+}
+
+.quiz-container {
     display: flex;
     gap: 100px;
-    margin: 200px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+
 }
