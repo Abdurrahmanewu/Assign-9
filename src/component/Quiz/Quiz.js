@@ -7,6 +7,7 @@ const Quiz = ({ quiz }) => {
         <div className='quiz-box'>
             <img src={logo} alt="" />
             <h2>{name}</h2>
+            <button>Start Practice</button>
         </div>
     );
 };

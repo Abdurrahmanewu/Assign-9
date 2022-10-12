@@ -1,10 +1,23 @@
 .quiz-box {
-    
+
     border: 1px solid lightblue;
     border-radius: 10px;
     padding-bottom: 20px;
+    background-color: gray;
 }
 
 .quiz-box img {
     height: 250px;
+}
+
+.quiz-box button {
+    width: 80%;
+    background-color: coral;
+    border: none;
+    border-radius: 200px;
+    height: 30px;
+}
+
+.quiz-box button:hover {
+    background-color: aquamarine;
 }
