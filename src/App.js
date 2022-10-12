@@ -23,6 +23,13 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
+        },
+        {
+          path: '*',
+          element: <div><p>404</p>
+            <br />
+            <p>This file is not found</p>
+          </div>
         }
 
       ]
