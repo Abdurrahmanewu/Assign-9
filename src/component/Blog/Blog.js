@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <div>
             <h1>
-                This is blog.
+                Couldn't make it.
             </h1>
         </div>
     );
